@@ -31,94 +31,94 @@
 }
 
 @keyframes post-in {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(540px);
-    -mos-transform: translateX(540px);
-    -o-transform: translateX(540px);
-    -ms-transform: translateX(540px);
-    transform: translateX(540px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-    -mos-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform: translateX(0px);
-  }
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(540px);
+        -mos-transform: translateX(540px);
+        -o-transform: translateX(540px);
+        -ms-transform: translateX(540px);
+        transform: translateX(540px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -mos-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
 }
 
 @keyframes post-out {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-    -mos-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform: translateX(0px);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateX(-540px);
-    -mos-transform: translateX(-540px);
-    -o-transform: translateX(-540px);
-    -ms-transform: translateX(-540px);
-    transform: translateX(-540px);
-  }
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -mos-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-540px);
+        -mos-transform: translateX(-540px);
+        -o-transform: translateX(-540px);
+        -ms-transform: translateX(-540px);
+        transform: translateX(-540px);
+    }
 }
 
 @keyframes pre-in {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-540px);
-    -mos-transform: translateX(-540px);
-    -o-transform: translateX(-540px);
-    -ms-transform: translateX(-540px);
-    transform: translateX(-540px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-    -mos-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform: translateX(0px);
-  }
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-540px);
+        -mos-transform: translateX(-540px);
+        -o-transform: translateX(-540px);
+        -ms-transform: translateX(-540px);
+        transform: translateX(-540px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -mos-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
 }
 
 @keyframes pre-out {
-  0% {
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-    -mos-transform: translateX(0px);
-    -o-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    transform: translateX(0px);
-  }
-  100% {
-    opacity: 0;
-    -webkit-transform: translateX(540px);
-    -mos-transform: translateX(540px);
-    -o-transform: translateX(540px);
-    -ms-transform: translateX(540px);
-    transform: translateX(540px);
-  }
+    0% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        -mos-transform: translateX(0px);
+        -o-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(540px);
+        -mos-transform: translateX(540px);
+        -o-transform: translateX(540px);
+        -ms-transform: translateX(540px);
+        transform: translateX(540px);
+    }
 }
 #carousel > div.post-in {
-  animation: post-in 0.5s;
+    animation: post-in 0.5s;
 }
 
 #carousel > div.post-out {
-  animation: post-out 0.5s;
+    animation: post-out 0.5s;
 }
 
 #carousel > div.pre-in {
-  animation: pre-in 0.5s;
+    animation: pre-in 0.5s;
 }
 
 #carousel > div.pre-out {
-  animation: pre-out 0.5s;
+    animation: pre-out 0.5s;
 }
 
 #carousel div > img {
