@@ -1,0 +1,115 @@
+#container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    max-width: 1200px;
+    height: 400px;
+    background-color: rgb(22, 164, 222);
+}
+
+#carousel {
+    margin: 0 auto;
+    width: 540px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#carousel > .pic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+#carousel > .active {
+    display: block;
+}
+
+#carousel > .inactive {
+    display: none;
+}
+
+@keyframes post-in {
+  0% {
+    opacity: 0;
+    transform: translateX(540px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes post-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-540px);
+  }
+}
+
+@keyframes pre-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-540px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes pre-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(540px);
+  }
+}
+#carousel > div.post-in {
+  animation: post-in 0.5s;
+}
+
+#carousel > div.post-out {
+  animation: post-out 0.5s;
+}
+
+#carousel > div.pre-in {
+  animation: pre-in 0.5s;
+}
+
+#carousel > div.pre-out {
+  animation: pre-out 0.5s;
+}
+
+#carousel div > img {
+    max-height: 100%;
+}
+
+#carousel #preBtn,
+#carousel #postBtn {
+    cursor: pointer;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    top: 170px;
+    z-index: 999;
+    color: white;
+}
+
+#carousel #preBtn {
+    left: 4%;
+}
+
+#carousel #postBtn {
+    right: 4%;
+}
+
